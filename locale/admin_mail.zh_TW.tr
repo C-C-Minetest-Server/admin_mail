@@ -1,0 +1,28 @@
+# textdomain: admin_mail
+
+##[ src/report.lua ]##
+This is a mail sent via the /report GUI.=此郵件通過 /report 界面發送。
+Dear @1,=@1，
+Thank you for contacting the moderation team. We hereby confirm that your mail has been successfully sent.=感謝您和管理團隊聯絡。我們特此確認該郵件已送達。
+The original message is attached below. Should you have any questions, you can fill in the form again.=以下附上閣下的原始信息。如有任何疑問，歡迎再次填寫表格。
+Yours truly,=以上，
+The Moderation Team=伺服器管理團隊
+Original message=原始信息
+Title: @1=標題：@1
+We have received your form=我們已收到您的表格
+Moderation Team Contact Form=管理團隊聯絡表格
+Use this form to contact moderators.=使用此表格聯絡管理團隊。
+If the issue should not be disclosed, choose "Admins";=如果該問題不應被公開，選擇「擁有者」；
+otherwise, choose "Moderators".=否則，選擇「管理員」。
+Moderators=管理員
+Admins=擁有者
+Title=標題
+Write your messages here...=輸入您的信息……
+Please include sufficient information@nfor the moderation team to handle your request.=請在信息內包含足夠資訊，@n以便管理團隊處理您的請求。
+Submit=提交
+The message cannot be blank.=訊息不得爲空。
+NO TITLE=無標題
+Message sent.=信息已發送。
+Failed to send message: @1=發送信息失敗：@1
+Contact moderators for player mishevaiour or server issues.=爲玩家不當行爲或伺服器問題和管理團隊聯絡。
+Form shown.=表格已打開。

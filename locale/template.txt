@@ -1,0 +1,28 @@
+# textdomain: admin_mail
+
+##[ src/report.lua ]##
+This is a mail sent via the /report GUI.=
+Dear @1,=
+Thank you for contacting the moderation team. We hereby confirm that your mail has been successfully sent.=
+The original message is attached below. Should you have any questions, you can fill in the form again.=
+Yours truly,=
+The Moderation Team=
+Original message=
+Title: @1=
+We have received your form=
+Moderation Team Contact Form=
+Use this form to contact moderators.=
+If the issue should not be disclosed, choose "Admins";=
+otherwise, choose "Moderators".=
+Moderators=
+Admins=
+Title=
+Write your messages here...=
+Please include sufficient information@nfor the moderation team to handle your request.=
+Submit=
+The message cannot be blank.=
+NO TITLE=
+Message sent.=
+Failed to send message: @1=
+Contact moderators for player mishevaiour or server issues.=
+Form shown.=
