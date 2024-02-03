@@ -19,6 +19,10 @@
     USA
 ]]
 
+if not mail.register_recipient_handler then
+    error("[admin_mail] Please use the most recent version of mail (commit ea7773730ec8fa73dfef304fa0f1ff03013e0fba).")
+end
+
 -- Handle a cache of list of moderators
 local list_admins = {}
 local list_moderators = {}
