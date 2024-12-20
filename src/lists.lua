@@ -78,12 +78,14 @@ mail.register_recipient_handler(function(sender, name)
     local list_dest = {}
     if list_name == "admins" or list_name == "moderators" then
         for k, v in pairs(list_admins) do
-            list_dest[#list_dest+1] = k
+            if k ~= sender then
+                list_dest[#list_dest+1] = k
+            end
         end
 
         if list_name == "moderators" then
             for k, v in pairs(list_moderators) do
-                if list_name ~= "admins" or not list_admins[k] then
+                if k ~= sender and (list_name ~= "admins" or not list_admins[k]) then
                     list_dest[#list_dest+1] = k
                 end
             end
